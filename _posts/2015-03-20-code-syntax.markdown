@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Syntax
+title: 测试标题
 date: 2014-03-20
 comments: true
 archive: false
