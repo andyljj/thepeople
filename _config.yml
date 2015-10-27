@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: ThePeople
+description: 关于人与人类组织的拓展阅读
 
 sass:
   sass_dir: assets/css/_sass
@@ -9,7 +9,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://nadjetey.github.io/wangana
+url: http://andyljj.github.io/thepeople/
 permalink: /:year/:month/:title/
 owner:
     name: #
