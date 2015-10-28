@@ -1,4 +1,38 @@
+
+#sitehead{
+	position: fixed;
+    top: 0px;
+    display: block;
+    height: 150px;
+    width: 100%;
+    background: #457;
+    z-index: 999;
+}
+#nav{   
+	position: fixed;
+    left: 0px;
+    top: 150px;
+    background: #345;
+    width: 30%;
+}
+#adboard{
+	position: fixed;
+    left: 75%;
+    top: 150px;
+    background: #8A8A8A;
+    width: 25%;
+}
+#content{
+    margin-left: 30%;
+    width: 45%;
+    margin-top: 150px;
+    background: #254;
+}
+
 #wrap .container {
     max-width: 1000px !important;
     padding: 75px 0 60px;
+}
+.footer {
+     height: 30px; 
 }
