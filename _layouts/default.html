@@ -5,6 +5,10 @@
     <div id="wrap">
         <div id="body" class="container">
             <div class="row row-offcanvas row-offcanvas-left">
+                <!-- head for whole site  -->
+                <header id="sitehead" class="row" >
+                    <a href="http://andyljj.github.io/thepeople">THE PEOPLE</a> &nbsp; &nbsp; &nbsp; <span>{{ site.description }}</span>
+                </header>
                 <!-- side navigation -->
                 <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
                     <header id="menu" role="banner">
@@ -40,6 +44,10 @@
                     <div class="row">
                         {{ content }}
                     </div>
+                </div>
+                <!-- advertising board -->
+                <div id="adboard" class="col-sm-2 sidebar-offcanvas">
+                    <p>this is ad board</p>                    
                 </div>
             </div>
         </div>
