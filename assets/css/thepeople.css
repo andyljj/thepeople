@@ -8,12 +8,13 @@
     background: #457;
     z-index: 999;
 }
-#nav{   
+#navbar{   
 	position: fixed;
     left: 0px;
     top: 150px;
     background: #345;
-    width: 30%;
+    width: 30%;;
+    z-index: 888;
 }
 #adboard{
 	position: fixed;
@@ -21,6 +22,7 @@
     top: 150px;
     background: #8A8A8A;
     width: 25%;
+    z-index: 777;
 }
 #content{
     margin-left: 30%;
