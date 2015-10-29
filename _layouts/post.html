@@ -18,15 +18,7 @@ layout: default
     </div>
 </div>
 <!-- advertising board -->
-<div id="adboard" class="">
-    {% if page.xsqt %}
-        <img src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}">  
-    {% endif %}  
-    {% if page.cklz %}
-        <img src="{{ "/assets/adimg/1.jpg" | prepend: site.url }}">  
-    {% endif %}   
-</div>
-
+{% include adboard.html %}
                 
 <!--  
 <script>
