@@ -18,8 +18,10 @@ Lorem ipsum dolor sit amet Id, aliquam magni et officiis nemo nihil aliquid plac
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sed quo atque *perspiciatis*. Eius cum possimus, maxime unde, asperiores neque blanditiis molestiae ipsa odit. **Laboriosam**, error! Ipsa officia magnam at ratione commodi porro nulla consequuntur eum quia nisi officiis cupiditate reprehenderit provident facilis rem, nobis quidem fugiat, et! Tempore maiores rep
 
-<video src="http://player.video.qiyi.com/30bd845ab58feb8275f4c7d89efb9b24/0/0/v_19rrkjcyo0.swf-albumId=410520300-tvId=410520300-isPurchase=0-cnId=31" controls="controls" width="480px" height="350px" >
-您的浏览器不支持 video 标签。
+
+
+<video src="http://player.video.qiyi.com/30bd845ab58feb8275f4c7d89efb9b24/0/0/v_19rrkjcyo0.swf-albumId=410520300-tvId=410520300-isPurchase=0-cnId=31" controls="controls">
+你浏览器不支持 video 功能
 </video>
 
 rehenderit laboriosam rerum? 
