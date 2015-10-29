@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet Id, aliquam magni et officiis nemo nihil aliquid plac
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sed quo atque *perspiciatis*. Eius cum possimus, maxime unde, asperiores neque blanditiis molestiae ipsa odit. **Laboriosam**, error! Ipsa officia magnam at ratione commodi porro nulla consequuntur eum quia nisi officiis cupiditate reprehenderit provident facilis rem, nobis quidem fugiat, et! Tempore maiores rep
 
-<video src="http://www.iqiyi.com/v_19rrkjcyo0.html" controls="controls" width="480" height="350" >
+<video src="http://www.iqiyi.com/v_19rrkjcyo0.html" controls="controls" width="480px" height="350px" >
 您的浏览器不支持 video 标签。
 </video>
 
