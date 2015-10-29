@@ -8,34 +8,30 @@ layout: default
         	<div class="page-title">
         		{{ page.title }}
         		<div class="meta">    			
-                    {% if site.owner.name %}
-                    By {{site.owner.name}},
-                    {% endif %}
-        			<time class="timeago" datetime="{{ page.date }}">{{ page.date |  date: "%A %-d %B %Y" }}</time>,
-        			<a href="{{ page.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
-        			comments.
+                 {{ post.date | date: "%F" }}
         		</div>
         	</div>
             <div class="page-content">
-                {{ content }}
-                <!-- Share & Comments -->
-                {% include scripts/share.html %}            
+                {{ content }}                       
             </div>
         </div>
     </div>
 </div>
 <!-- advertising board -->
 <div id="adboard" class="">
-    {% if post.series == 'xsqt' %}
+    {% if post.xsqt %}
         <img src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}">  
+    {% endif %}  
+    {% if post.cklz %}
+        <img src="{{ "/assets/adimg/1.jpg" | prepend: site.url }}">  
     {% endif %}   
 </div>
 
                 
-
+<!--  
 <script>
     $(".page-preview-icon").hover(function(){
         $(this).parents(".page-nav").css("z-index","5000");
     });
     {% include scripts/disqus.html %}
-</script>
+</script>-->
