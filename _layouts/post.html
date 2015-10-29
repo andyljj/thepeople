@@ -8,7 +8,7 @@ layout: default
         	<div class="page-title">
         		{{ page.title }}
         		<div class="meta">    			
-                 {{ post.date | date: "%F" }}
+                 {{ page.date | date: "%F" }}
         		</div>
         	</div>
             <div class="page-content">
@@ -19,10 +19,10 @@ layout: default
 </div>
 <!-- advertising board -->
 <div id="adboard" class="">
-    {% if post.xsqt %}
+    {% if page.xsqt %}
         <img src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}">  
     {% endif %}  
-    {% if post.cklz %}
+    {% if page.cklz %}
         <img src="{{ "/assets/adimg/1.jpg" | prepend: site.url }}">  
     {% endif %}   
 </div>
