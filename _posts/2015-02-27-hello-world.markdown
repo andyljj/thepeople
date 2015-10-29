@@ -4,6 +4,7 @@ title: Hello world
 date: 2014-03-27
 comments: true
 archive: false
+series：刺客列传
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
