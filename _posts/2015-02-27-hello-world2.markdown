@@ -4,7 +4,7 @@ title: Hello world
 date: 2014-03-27
 comments: true
 archive: false
-series："cklz"
+cklz: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
