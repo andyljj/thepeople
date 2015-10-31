@@ -3,43 +3,42 @@ layout: default
 title: Archive
 ---
 
-<div class="maincontent">
-      <div class="col-sm-12">
-        <div class="page">
-            {% for post in site.posts %}
-                {% if post.cklz %}
-                <div class="page-item">
-                    <div class="col-sm-8">
-                        <ul class="page-item-title">
-                          
-                            <li>{{ post.date | date: "%F" }} </li>
-                            <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 hide-on-phone">
-                        <ul class="page-item-title pull-right meta">
-                           <!--  <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li> -->
-                            <!-- <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li> -->
-                            <!-- <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a> 
-                            </li>-->
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 ">
-                        {{post.excerpt}}
-                    </div>
-                </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>          
+
+<div class="col-md-8">
+    {% for post in site.posts %}
+        {% if post.cklz %}
+
+            <h2>
+                <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}
+            </h2>
+            <!-- <p class="lead">
+                by <a href="index.php">Start Bootstrap</a>
+            </p> -->
+            <p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%F" }}</p>
+            <hr>
+            <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+            <hr>
+            <p>{{post.excerpt}}</p>
+            <a class="btn btn-primary" href="{{ post.url | prepend: site.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+            <hr>
+
+        {% endif %}
+   {% endfor %}
+
+
+    <!-- Pager -->
+   <!--  <ul class="pager">
+        <li class="previous">
+            <a href="#">← Older</a>
+        </li>
+        <li class="next">
+            <a href="#">Newer →</a>
+        </li>
+    </ul> -->
 </div>
+
+
 <!-- advertising board -->
-<div id="adboard" class="">
-    <p>this is ad board</p> 
-    <img src="{{ "/assets/adimg/1.jpg" | prepend: site.url }}">  
-</div>
-
-
-
-
+{% include adboard.html %}
 
