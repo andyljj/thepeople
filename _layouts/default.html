@@ -1,28 +1,88 @@
 {% include head.html %}
-<main>
-    <span class="statusbar"></span>
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-        <div>
-            <!-- head for whole site  -->
-            <header id="sitehead">
-                <a href="http://andyljj.github.io/thepeople">THE PEOPLE</a> &nbsp; &nbsp; &nbsp; <span>{{ site.description }}</span>
-                 <!-- Share  -->
-                {% include scripts/share.html %}    
-            </header>
-            <!-- side navigation -->
-            <nav id="navbar" >
-                {% include sidenav.html %}                    
-            </nav>
-            <!-- Content -->
-            <div class="content">
-                {{ content }}
-            </div>           
+
+<div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{site.url}}">THE PEOPLE</a> &nbsp; &nbsp; &nbsp; <span>{{ site.description }}</span>
+                
+            </div>
+           
+            <!-- Share  -->
+            {% include scripts/share.html %}  
+
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            {% include sidenav.html %}              
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                    <div class="row">
+
+                       {{content}}
+
+                    </div>
+                    <!-- /.row -->
+
+                    <hr>
+
+                    <!-- Footer -->
+                    <footer>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p>Copyright © THEPEOPLE</p>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </footer>
+
+
+            </div>
+            <!-- /.container-fluid -->
+
         </div>
+        <!-- /#page-wrapper -->
+
+
     </div>
-</main>
+    <!-- /#wrapper -->
+
+    <div id="bottomcover"></div>
+
+
 {% include footer.html %}
 
 
 
 
+   
+<!-- <main>
+   
+    <div id="wrap">
+        <div>
+
+            <header id="sitehead">
+                <a href="http://andyljj.github.io/thepeople">THE PEOPLE</a> &nbsp; &nbsp; &nbsp; <span>{{ site.description }}</span>
+                 Share 
+                {% include scripts/share.html %}    
+            </header>
+
+            <nav id="navbar" >
+                {% include sidenav.html %}                    
+            </nav>
+            
+            <div class="content">
+                {{ content }}
+            </div>           
+        </div>
+    </div>
+</main> -->

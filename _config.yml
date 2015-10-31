@@ -1,5 +1,7 @@
 name: THE PEOPLE
 description: 关于人与人类组织的拓展阅读
+author: jiaj_luo
+keywords: 人类 组织 名人
 
 sass:
   sass_dir: assets/css/_sass
