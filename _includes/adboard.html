@@ -14,12 +14,11 @@
 <div class="col-md-4" id="adboard">
 	<div class="well">
 	    {% if page.xsqt %}
-	        <img class="img-responsive"  src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}">  
-	    {% elseif page.cklz %} 
-	        <img class="img-responsive"  src="{{ "/assets/adimg/cklz.jpg" | prepend: site.url }}">  
-        {% else %}   
-	        <img class="img-responsive"  src="{{ "/assets/adimg/1.jpg" | prepend: site.url }}">
-	    {% endif %}   
+	        <img class="img-responsive"  src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}"> 
+	    {% endif %}  
+	    {% if page.cklz %} 
+	        <img class="img-responsive"  src="{{ "/assets/adimg/cklz.jpg" | prepend: site.url }}"> 
+	    {% endif %} 
     </div>
 
     <!-- Blog Search Well -->
