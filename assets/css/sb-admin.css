@@ -170,9 +170,10 @@ ul.alert-dropdown {
         /*background-color: #000 !important;*/
     }
     #description{
-        line-height: 50px;
+        line-height: 65px;
         margin-left: 30px;
         color: #9E9E9E;
+        display: block;
     }
 }
 
