@@ -151,10 +151,10 @@ ul.alert-dropdown {
         margin-left: 15%;
         border: none;
         border-radius: 0;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         /*background-color: #789;*/
         bottom: 0;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         padding-bottom: 40px;
         float: none;
         padding-top: 20px;
