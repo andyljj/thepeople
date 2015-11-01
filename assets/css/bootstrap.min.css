@@ -4495,6 +4495,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		float: left;
 		margin-top: 55px;
 		margin-left: 15%;
+		width: 400px;
 	}
 }
 
@@ -4600,7 +4601,6 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	padding: 15px 15px;
 	font-size: 18px;
 	line-height: 20px;
-	width: 500px;
 }
 
 .navbar-brand:focus,.navbar-brand:hover {
