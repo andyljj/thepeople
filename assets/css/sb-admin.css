@@ -69,6 +69,9 @@ body {
     #description{
         display:none;
     }
+    .navbar-inverse{
+        border-color: #E2E2E2;
+    }
 }
 .top-nav>li {
     display: inline-block;

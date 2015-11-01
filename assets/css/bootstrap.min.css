@@ -4979,7 +4979,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {
-	color: #348DDC;
+	color: #ff7800;
 	background-color: transparent
 }
 
@@ -5006,7 +5006,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
-	/*border-color: #101010*/
+	border-color: #D2D2D2;
 }
 
 .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover {
