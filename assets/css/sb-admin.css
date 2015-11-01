@@ -146,7 +146,7 @@ ul.alert-dropdown {
         overflow-x: hidden;
         padding-bottom: 40px;
         float: none;
-        /*padding-top: 20px;*/
+        padding-top: 20px;
     }
 
     .side-nav>li>a {
