@@ -292,14 +292,14 @@ ul.alert-dropdown {
 }
 
 .bds_more{
-    background-image:url(assets/images/icons/more.png); 
+    background-image:url(assets/images/icons/more.png) !important; 
 }
 .bbds_weixin{
-    background-image:url(assets/images/icons/wx.png); 
+    background-image:url(assets/images/icons/wx.png) !important; 
 }
 .bds_tsina{
-    background-image:url(assets/images/icons/wb.png); 
+    background-image:url(assets/images/icons/wb.png)  !important; 
 }
 .bds_qzone{
-    background-image:url(assets/images/icons/kj.png); 
+    background-image:url(assets/images/icons/kj.png)  !important; 
 }
