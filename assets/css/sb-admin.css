@@ -304,8 +304,6 @@ ul.alert-dropdown {
     background-image:url(../images/icons/kj.png)  !important; 
 }
 .bdshare-button-style2-24 .bds_tsina ,.bdshare-button-style2-24 .bds_qzone,.bdshare-button-style2-24 .bds_weixin{
-     background-position: 0 ; 
+     background-position: 0px 0px ; 
 }
- {
-    /* background-position: 0 -52px; */
-}
+ 
