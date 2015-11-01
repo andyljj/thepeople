@@ -294,7 +294,7 @@ ul.alert-dropdown {
 .bds_more{
     background-image:url(../images/icons/more.png) !important; 
 }
-.bbds_weixin{
+.bds_weixin{
     background-image:url(../images/icons/wx.png) !important; 
 }
 .bds_tsina{
@@ -304,6 +304,6 @@ ul.alert-dropdown {
     background-image:url(../images/icons/kj.png)  !important; 
 }
 .bdshare-button-style2-24 .bds_tsina ,.bdshare-button-style2-24 .bds_qzone,.bdshare-button-style2-24 .bds_weixin{
-     background-position: 0px 0px ; 
+     background-position: 0px 0px  !important; 
 }
  
