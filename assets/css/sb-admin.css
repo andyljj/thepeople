@@ -158,6 +158,10 @@ ul.alert-dropdown {
         outline: none;
         /*background-color: #000 !important;*/
     }
+    #description{
+        line-height: 50px;
+        margin-left: 30px;
+    }
 }
 
 .side-nav>li>ul {
@@ -254,10 +258,7 @@ ul.alert-dropdown {
 
 
 
-#description{
-    line-height: 50px;
-    margin-left: 30px;
-}
+
 #adwrap{
     text-align: right;
 }
