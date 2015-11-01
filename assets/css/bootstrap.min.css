@@ -4486,7 +4486,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 @media (min-width:900px) {
 	.navbar {
 		border-radius: 4px;
-		height: 100px;
+		height: 120px;
 	}
 }
 
