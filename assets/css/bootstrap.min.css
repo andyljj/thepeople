@@ -1358,13 +1358,13 @@ button,input,select,textarea {
 }
 
 a {
-	color: #337ab7;
+	color:#348DDC;
 	text-decoration: none
 }
 
 a:focus,a:hover {
-	color: #23527c;
-	text-decoration: underline
+	color: #ff7800;
+	/*text-decoration: underline*/
 }
 
 a:focus {
@@ -4960,7 +4960,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse .navbar-brand {
-	color: #484848;
+	/*color: #484848;*/
 	font-size: 32px;
 	color: #000;
 }
@@ -4971,11 +4971,11 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse .navbar-text {
-	color: #348DDC
+	/*color: #348DDC*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #348DDC
+	/*color: #348DDC*/
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {
