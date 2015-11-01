@@ -63,8 +63,11 @@ body {
 }
 @media(max-width: 900px){
     .top-nav {
-    display:none;
-}
+        display:none;
+    }
+    #description{
+        display:none;
+    }
 }
 .top-nav>li {
     display: inline-block;
@@ -257,8 +260,11 @@ ul.alert-dropdown {
 }
 
 
-
-
 #adwrap{
     text-align: right;
+}
+@media (max-width: 900px){
+    #adwrap>img{
+        width: 100%;
+    }
 }
