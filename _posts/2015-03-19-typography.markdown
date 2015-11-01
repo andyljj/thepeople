@@ -14,6 +14,17 @@ Lorem ipsum dolor sit amet Id, aliquam magni et officiis nemo nihil aliquid plac
 
 <iframe frameborder="0" class="v" src="http://v.qq.com/iframe/player.html?vid=a0170u1x7n0&tiny=0&auto=0" allowfullscreen></iframe>
 
+iframe上放src
+<iframe frameborder="0" class="v" src="http://player.video.qiyi.com/1db68b4ac4b8b0346cd27dce3af889c2/0/0/v_19rrksa8bg.swf-albumId=413090800-tvId=413090800-isPurchase=0-cnId=31" allowfullscreen></iframe>
+
+直接改成iframe
+<iframe frameborder="0"  src="http://player.video.qiyi.com/1db68b4ac4b8b0346cd27dce3af889c2/0/0/v_19rrksa8bg.swf-albumId=413090800-tvId=413090800-isPurchase=0-cnId=31" allowFullScreen="true" quality="high" class="v" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></iframe>
+
+
+
+
+
+
 ## This is a h2
 
 ### h3, h4, h5 and h6 have the same style.
