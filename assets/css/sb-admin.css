@@ -292,14 +292,14 @@ ul.alert-dropdown {
 }
 
 .bds_more{
-    background-image:url({{ "/assets/images/icons/more.png" | prepend: site.url }}) !important; 
+    background-image:url(../images/icons/more.png) !important; 
 }
 .bbds_weixin{
-    background-image:url(/assets/images/icons/wx.png) !important; 
+    background-image:url(../images/icons/wx.png) !important; 
 }
 .bds_tsina{
-    background-image:url(/assets/images/icons/wb.png)  !important; 
+    background-image:url(../images/icons/wb.png)  !important; 
 }
 .bds_qzone{
-    background-image:url(/assets/images/icons/kj.png)  !important; 
+    background-image:url(../images/icons/kj.png)  !important; 
 }
