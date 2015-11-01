@@ -72,9 +72,10 @@ body {
     .navbar-inverse{
         border-color: #E2E2E2;
     }
-    .navbar-inverse .navbar-brand {
+    .navbar-inverse .navbar-brand img {
         font-size: 20px;
         color: #000;
+        width: 120px;
     }
 }
 .top-nav>li {
