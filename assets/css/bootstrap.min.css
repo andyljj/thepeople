@@ -4493,9 +4493,9 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 @media (min-width:900px) {
 	.navbar-header {
 		float: left;
-		margin-top: 55px;
+		margin-top: 74px;
 		margin-left: 15%;
-		width: 400px;
+		width: 500px;
 	}
 }
 
@@ -4615,6 +4615,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	.navbar>.container .navbar-brand,.navbar>.container-fluid .navbar-brand {
 		margin-left: -15px
 	}
+	.navbar-brand{
+		font-size: 32px;
+	}
+
 }
 
 .navbar-toggle {
@@ -4842,7 +4846,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 
 	.navbar-right {
 		float: right!important;
-		margin-top: 55px;
+		margin-top: 74px;
 		margin-right: 15%;
 	}
 
@@ -4951,7 +4955,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse {
-	background-color: #fff;
+	background-color: #484848;
 	border-color: #fff;
 }
 
