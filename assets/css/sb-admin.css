@@ -286,3 +286,20 @@ ul.alert-dropdown {
     color:#D0D0D0;
     font-size: 14px;
 }
+
+.postimg{
+    margin-bottom: 15px;
+}
+
+.bds_more{
+    background-image:url(assets/images/icons/more.png); 
+}
+.bbds_weixin{
+    background-image:url(assets/images/icons/wx.png); 
+}
+.bds_tsina{
+    background-image:url(assets/images/icons/wb.png); 
+}
+.bds_qzone{
+    background-image:url(assets/images/icons/kj.png); 
+}

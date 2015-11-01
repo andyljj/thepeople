@@ -1,7 +1,7 @@
 name: THE PEOPLE
-description: 关于人与人类组织的拓展阅读
+description: 八一八那些名人和名组织的故事
 author: jiaj_luo
-keywords: 人类 组织 名人
+keywords: 人类 组织 名人 故事
 
 sass:
   sass_dir: assets/css/_sass
