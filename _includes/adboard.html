@@ -1,12 +1,14 @@
 
 <!-- Blog Sidebar Widgets Column -->
 <div class="col-md-4" id="adboard">
-	    {% if page.xsqt %}
-	        <img class="img-responsive"  src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}"> 
-	    {% endif %}  
-	    {% if page.cklz %} 
-	        <img class="img-responsive"  src="{{ "/assets/adimg/cklz.jpg" | prepend: site.url }}"> 
-	    {% endif %} 
+        <div id="adwrap">
+    	    {% if page.xsqt %}
+    	        <img class=""  src="{{ "/assets/adimg/xsqt.jpg" | prepend: site.url }}"> 
+    	    {% endif %}  
+    	    {% if page.cklz %} 
+    	        <img class=""  src="{{ "/assets/adimg/cklz.jpg" | prepend: site.url }}"> 
+    	    {% endif %} 
+        </div>
    <!--  <div class="well">
     </div> -->
 </div>
