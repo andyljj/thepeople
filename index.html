@@ -10,7 +10,7 @@ xsqt: true
             <h2>
                 <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
             </h2>
-            <p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%F" }}</p>
+            <p><span class="glyphicon glyphicon-time meta"></span> {{ post.date | date: "%F" }}</p>
             <img class="img-responsive" src="http://placehold.it/900x300" alt="">
             <p>{{post.excerpt}}</p>
             <a  href="{{ post.url | prepend: site.url }}">Read More </a>
