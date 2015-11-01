@@ -12,6 +12,8 @@ Lorem ipsum dolor sit amet Id, aliquam magni et officiis nemo nihil aliquid plac
 <embed src="http://player.video.qiyi.com/30bd845ab58feb8275f4c7d89efb9b24/0/0/v_19rrkjcyo0.swf-albumId=410520300-tvId=410520300-isPurchase=0-cnId=31" allowFullScreen="true" quality="high" class="v" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 
+<iframe frameborder="0" class="v" src="http://v.qq.com/iframe/player.html?vid=a0170u1x7n0&tiny=0&auto=0" allowfullscreen></iframe>
+
 ## This is a h2
 
 ### h3, h4, h5 and h6 have the same style.
