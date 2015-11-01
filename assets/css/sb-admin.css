@@ -293,15 +293,19 @@ ul.alert-dropdown {
 
 .bds_more{
     background-image:url(../images/icons/more.png) !important; 
+    margin-left: 10px !important;
 }
 .bds_weixin{
     background-image:url(../images/icons/wx.png) !important; 
+    margin-left: 10px !important;
 }
 .bds_tsina{
     background-image:url(../images/icons/wb.png)  !important; 
+    margin-left: 10px !important;
 }
 .bds_qzone{
     background-image:url(../images/icons/kj.png)  !important; 
+    margin-left: 10px !important;
 }
 .bdshare-button-style2-24 .bds_tsina ,.bdshare-button-style2-24 .bds_qzone,.bdshare-button-style2-24 .bds_weixin{
      background-position: 0px 0px  !important; 
