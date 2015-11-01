@@ -292,7 +292,7 @@ ul.alert-dropdown {
 }
 
 .bds_more{
-    background-image:url(/assets/images/icons/more.png) !important; 
+    background-image:url({{ "/assets/images/icons/more.png" | prepend: site.url }}) !important; 
 }
 .bbds_weixin{
     background-image:url(/assets/images/icons/wx.png) !important; 
