@@ -4960,8 +4960,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-inverse .navbar-brand {
-	/*color: #484848;*/
-	font-size: 32px;
+	font-size: 24px;
 	color: #000;
 }
 
