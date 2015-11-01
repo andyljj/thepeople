@@ -7,11 +7,8 @@ layout: default
         {% if post.xsqt %}
 
             <h2>
-                <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}
+                <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
             </h2>
-            <!-- <p class="lead">
-                by <a href="index.php">Start Bootstrap</a>
-            </p> -->
             <p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%F" }}</p>
             <hr>
             <img class="img-responsive" src="http://placehold.it/900x300" alt="">
